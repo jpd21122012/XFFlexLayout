@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="FlexLayoutXF.FormView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <ContentPage.Content>
+        <FlexLayout Direction="Column">
+            <FlexLayout
+                Direction="Column"
+                FlexLayout.Grow="2"
+                JustifyContent="Center">
+                <Image
+                    Aspect="AspectFit"
+                    FlexLayout.AlignSelf="Center"
+                    HeightRequest="125"
+                    Source="xamarin"
+                    WidthRequest="125" />
+            </FlexLayout>
+            <FlexLayout
+                Direction="Row"
+                FlexLayout.Grow="1"
+                JustifyContent="SpaceAround">
+                <Button
+                    BackgroundColor="AntiqueWhite"
+                    BorderColor="Red"
+                    BorderWidth="1"
+                    CornerRadius="35"
+                    HeightRequest="40"
+                    Text="My feeds"
+                    WidthRequest="120" />
+                <Button
+                    BackgroundColor="AntiqueWhite"
+                    BorderColor="Red"
+                    BorderWidth="1"
+                    CornerRadius="35"
+                    HeightRequest="40"
+                    Text="My photos"
+                    WidthRequest="120" />
+            </FlexLayout>
+            <FlexLayout
+                Direction="Row"
+                FlexLayout.Grow="3"
+                JustifyContent="SpaceEvenly"
+                Wrap="Wrap">
+                <Label
+                    FlexLayout.Basis="40%"
+                    HeightRequest="50"
+                    Text="Name" />
+                <Label
+                    FlexLayout.Basis="40%"
+                    HeightRequest="50"
+                    HorizontalTextAlignment="End"
+                    Text="Jorgemht" />
+
+                <Label
+                    FlexLayout.Basis="40%"
+                    HeightRequest="50"
+                    Text="Email" />
+                <Label
+                    FlexLayout.Basis="40%"
+                    HeightRequest="50"
+                    HorizontalTextAlignment="End"
+                    Text="myemail@myemail.com" />
+
+                <Label
+                    FlexLayout.Basis="40%"
+                    HeightRequest="50"
+                    Text="Phone" />
+
+                <Label
+                    FlexLayout.Basis="40%"
+                    HeightRequest="50"
+                    HorizontalTextAlignment="End"
+                    Text="+34 7864743821" />
+
+            </FlexLayout>
+            <FlexLayout FlexLayout.Grow="1" JustifyContent="Center">
+                <Button
+                    BackgroundColor="AntiqueWhite"
+                    BorderColor="Red"
+                    BorderWidth="1"
+                    CornerRadius="35"
+                    HeightRequest="60"
+                    Text="Update profile"
+                    WidthRequest="160" />
+            </FlexLayout>
+        </FlexLayout>
+    </ContentPage.Content>
+</ContentPage>

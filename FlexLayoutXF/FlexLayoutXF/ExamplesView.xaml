@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage
+    x:Class="FlexLayoutXF.ExamplesView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    NavigationPage.HasNavigationBar="false"
+    mc:Ignorable="d">
+    <ContentPage Title="Direction">
+        <!--  Row Column ColumnReverse RowReverse  -->
+        <FlexLayout Direction="Row">
+            <BoxView
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="50" />
+            <BoxView
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="50" />
+            <BoxView
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="50" />
+            <BoxView
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="50" />
+            <BoxView
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="50" />
+            <BoxView
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="50" />
+            <BoxView
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="50" />
+            <BoxView
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="50" />
+        </FlexLayout>
+    </ContentPage>
+    <ContentPage Title="Wrap">
+        <!--  Wrap NoWrap  Reverse  -->
+        <FlexLayout Wrap="Wrap">
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Navy"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+            <Grid
+                Margin="1"
+                BackgroundColor="Yellow"
+                WidthRequest="30" />
+        </FlexLayout>
+    </ContentPage>
+    <ContentPage Title="Basis">
+        <FlexLayout Direction="Column">
+            <BoxView BackgroundColor="Navy" FlexLayout.Basis="30%" />
+            <BoxView BackgroundColor="Yellow" FlexLayout.Basis="20%" />
+            <BoxView BackgroundColor="Navy" FlexLayout.Basis="20%" />
+            <BoxView BackgroundColor="Yellow" FlexLayout.Basis="30%" />
+        </FlexLayout>
+    </ContentPage>
+    <ContentPage Title="Grow">
+        <FlexLayout Direction="Column">
+            <BoxView BackgroundColor="Navy" FlexLayout.Grow="1" />
+            <BoxView BackgroundColor="Yellow" FlexLayout.Grow="2" />
+            <BoxView BackgroundColor="Navy" FlexLayout.Grow="1" />
+        </FlexLayout>
+    </ContentPage>
+    <ContentPage Title="Examples">
+        <FlexLayout Direction="Column">
+            <Button Clicked="Button_Login" Text="Login" />
+            <Button Clicked="Button_School" Text="School" />
+            <Button Clicked="Button_Form" Text="Form" />
+            <Button Clicked="Button_AlignContent" Text="Align Content" />
+        </FlexLayout>
+    </ContentPage>
+</TabbedPage>
